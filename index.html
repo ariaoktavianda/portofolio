@@ -11,9 +11,6 @@
   -->
     <link rel="shortcut icon" href="./assets/images/mountain.png" type="image/x-icon" />
 
-<!--aos-->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <!--
     - custom css link
   -->
@@ -668,7 +665,7 @@
               </li>
 
               <li class="project-item active" data-filter-item data-category="animation">
-                <a href="#">
+                <a href="https://ariaoktavianda.github.io/bubble/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -684,16 +681,16 @@
               </li>
 
               <li class="project-item active" data-filter-item data-category="applications">
-                <a href="#">
+                <a href="https://ariaoktavianda.github.io/game/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
-                    <img src="./assets/images/coming-soon.jpg" alt="coming-soon" loading="lazy" />
+                    <img src="./assets/images/game.png" alt="Game" loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">coming-soon</h3>
+                  <h3 class="project-title">Game</h3>
 
                   <p class="project-category">Applications</p>
                 </a>
@@ -787,7 +784,6 @@
       -->
 
       <article class="contact" data-page="contact">
-
         <header>
           <h2 class="h2 article-title">Map</h2>
         </header>
@@ -842,12 +838,14 @@
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzuTMslcfyh8DjJbkm8wqqXBvp-HLfWrEWjfwt7H8FnYRSiWujdTVpGn7XM8sQSou48oQ/exec'
       const form = document.forms['portofolio']
+      const myAlert = document.querySelector('.my-alert');
     
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => console.log('Success!', response))
           .catch(error => console.error('Error!', error.message))
+          form.reset();
       })
     </script>
   </body>
