@@ -14,7 +14,7 @@ sidebarBtn.addEventListener('click', function () {
   elementToggleFunc(sidebar);
 });
 
-// testimonials variables
+// Artikel variables
 const artikelItem = document.querySelectorAll('[data-artikel-item]');
 const modalContainer = document.querySelector('[data-modal-container]');
 const modalCloseBtn = document.querySelector('[data-modal-close-btn]');
