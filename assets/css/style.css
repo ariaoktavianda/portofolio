@@ -1,19 +1,9 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
+/**style.css**/
 
-/**
- * copyright 2025 @Ariaoktavianda.github.io
- */
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
+/**copyright 2025 Ariaoktavianda**/
 
 :root {
-  /**
-   * colors
-   */
+  /**color**/
 
   /* gradient */
 
@@ -39,14 +29,12 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
+  /**typography**/
 
-  /* font-family */
+  /*font-family*/
   --ff-poppins: 'Poppins', sans-serif;
 
-  /* font-size */
+  /*font-size*/
   --fs-1: 24px;
   --fs-2: 18px;
   --fs-3: 17px;
@@ -56,15 +44,13 @@
   --fs-7: 13px;
   --fs-8: 11px;
 
-  /* font-weight */
+  /*font-weight*/
   --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
+  /**shadow**/
 
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -72,17 +58,13 @@
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
+  /**transition**/
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 }
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+/**reset**/
 
 *,
 *::before,
@@ -142,9 +124,7 @@ body {
   background: var(--smoky-black);
 }
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+/**reused stye**/
 
 .sidebar,
 article {
@@ -289,9 +269,7 @@ article.active {
   z-index: -1;
 }
 
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
+/**main**/
 
 main {
   margin: 15px 12px;
@@ -299,9 +277,7 @@ main {
   min-width: 259px;
 }
 
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
+/**sidebar**/
 
 .sidebar {
   margin-bottom: 15px;
@@ -446,9 +422,7 @@ main {
   color: var(--light-gray);
 }
 
-/*-----------------------------------*\
-  #NAVBAR
-\*-----------------------------------*/
+/**navbar**/
 
 .navbar {
   position: fixed;
@@ -487,9 +461,7 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
+/**about**/
 
 .about .article-title {
   margin-bottom: 15px;
@@ -506,9 +478,7 @@ main {
   margin-bottom: 15px;
 }
 
-/**
- * #service 
- */
+/**service**/
 
 .service {
   margin-bottom: 35px;
@@ -565,9 +535,7 @@ main {
   line-height: 1.6;
 }
 
-/**
- * #artikel 
- */
+/**artikel**/
 
 .artikel {
   margin-bottom: 30px;
@@ -622,9 +590,7 @@ main {
   overflow: hidden;
 }
 
-/**
- * #artikel-modal
- */
+/**artikel-modal**/
 
 .modal-container {
   position: fixed;
@@ -745,9 +711,7 @@ main {
   line-height: 1.6;
 }
 
-/**
- * #Keterampilan 
- */
+/**keterampilan**/
 
 .Keterampilan {
   margin-bottom: 15px;
@@ -783,17 +747,13 @@ main {
   filter: grayscale(0);
 }
 
-/*-----------------------------------*\
-  #RESUME
-\*-----------------------------------*/
+/**resume**/
 
 .article-title {
   margin-bottom: 30px;
 }
 
-/**
- * education and experience 
- */
+/**education**/
 
 .timeline {
   margin-bottom: 30px;
@@ -859,9 +819,7 @@ main {
   line-height: 1.6;
 }
 
-/**
- * skills 
- */
+/**skill**/
 
 .skills-title {
   margin-bottom: 20px;
@@ -901,9 +859,7 @@ main {
   border-radius: inherit;
 }
 
-/*-----------------------------------*\
-  #PROJECT
-\*-----------------------------------*/
+/**project**/
 
 .filter-list {
   display: none;
@@ -1078,9 +1034,7 @@ main {
   font-weight: var(--fw-300);
 }
 
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
+/**contact**/
 
 .mapbox {
   position: relative;
@@ -1205,26 +1159,18 @@ textarea.form-control::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
-/*-----------------------------------*\
-  #RESPONSIVE
-\*-----------------------------------*/
+/**responsive**/
 
-/**
- * responsive larger than 450px screen
- */
+/**responsive larger than 450px screen**/
 
 @media (min-width: 450px) {
-  /**
-   * Keterampilan
-   */
+/**keterampilan**/
 
   .Keterampilan-item {
     min-width: calc(33.33% - 10px);
   }
 
-  /**
-   * #PORTFOLIO, BLOG 
-   */
+/**portofolio, blog**/
 
   .project-img,
   .blog-banner-box {
@@ -1232,19 +1178,13 @@ textarea.form-control::-webkit-resizer {
   }
 }
 
-/**
- * responsive larger than 580px screen
- */
+/**responsive larger than 580px screen**/
 
 @media (min-width: 580px) {
-  /**
-   * CUSTOM PROPERTY
-   */
+/**custome property**/
 
   :root {
-    /**
-     * typography
-     */
+/**typography**/
 
     --fs-1: 32px;
     --fs-2: 24px;
@@ -1255,9 +1195,7 @@ textarea.form-control::-webkit-resizer {
     --fs-8: 12px;
   }
 
-  /**
-   * #REUSED STYLE
-   */
+  /**reused style**/
 
   .sidebar,
   article {
@@ -1283,18 +1221,14 @@ textarea.form-control::-webkit-resizer {
     font-size: 18px;
   }
 
-  /**
-   * #MAIN
-   */
+/**main**/
 
   main {
     margin-top: 60px;
     margin-bottom: 100px;
   }
 
-  /**
-   * #SIDEBAR
-   */
+/**sidebar**/
 
   .sidebar {
     max-height: 180px;
@@ -1353,9 +1287,7 @@ textarea.form-control::-webkit-resizer {
     width: calc(100% - 64px);
   }
 
-  /**
-   * #NAVBAR
-   */
+/**navbar**/
 
   .navbar {
     border-radius: 20px 20px 0 0;
@@ -1369,9 +1301,7 @@ textarea.form-control::-webkit-resizer {
     --fs-8: 14px;
   }
 
-  /**
-   * #ABOUT
-   */
+/**about**/
 
   .about .article-title {
     margin-bottom: 20px;
@@ -1381,7 +1311,7 @@ textarea.form-control::-webkit-resizer {
     margin-bottom: 40px;
   }
 
-  /* service */
+/**service**/
 
   .service-item {
     display: flex;
@@ -1400,7 +1330,7 @@ textarea.form-control::-webkit-resizer {
     text-align: left;
   }
 
-  /* artikel */
+/**artikel**/
 
   .artikel-title {
     margin-bottom: 25px;
@@ -1437,7 +1367,7 @@ textarea.form-control::-webkit-resizer {
     -webkit-line-clamp: 2;
   }
 
-  /* artikel modal */
+/**artikel modal**/
 
   .modal-container {
     padding: 20px;
@@ -1473,7 +1403,7 @@ textarea.form-control::-webkit-resizer {
     width: 35px;
   }
 
-  /* Keterampilan */
+/**Keterampilan**/
 
   .Keterampilan-list {
     gap: 50px;
@@ -1486,9 +1416,7 @@ textarea.form-control::-webkit-resizer {
     min-width: calc(33.33% - 35px);
   }
 
-  /**
-   * #RESUME
-   */
+/**resume**/
 
   .timeline-list {
     margin-left: 65px;
@@ -1508,9 +1436,7 @@ textarea.form-control::-webkit-resizer {
     margin-bottom: 25px;
   }
 
-  /**
-   * #PORTFOLIO, BLOG
-   */
+/**portofolio dan blog**/
 
   .project-img,
   .blog-banner-box {
@@ -1525,9 +1451,7 @@ textarea.form-control::-webkit-resizer {
     padding: 25px;
   }
 
-  /**
-   * #CONTACT
-   */
+/**contact**/
 
   .mapbox {
     height: 380px;
@@ -1557,14 +1481,10 @@ textarea.form-control::-webkit-resizer {
   }
 }
 
-/**
- * responsive larger than 768px screen
- */
+/**responsive larger than 768px screen**/
 
 @media (min-width: 768px) {
-  /**
-   * REUSED STYLE
-   */
+/**REUSED STYLE**/
 
   .sidebar,
   article {
@@ -1575,28 +1495,22 @@ textarea.form-control::-webkit-resizer {
     width: 100px;
   }
 
-  /**
-   * SIDEBAR
-   */
+/**SIDEBAR**/
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
 
-  /**
-   * NAVBAR
-   */
+/**NAVBAR**/
 
   .navbar-link {
     --fs-8: 15px;
   }
 
-  /**
-   * ABOUT
-   */
+/**ABOUT**/
 
-  /* artikel modal */
+/**artikel modal**/
 
   .artikel-modal {
     gap: 35px;
@@ -1607,9 +1521,7 @@ textarea.form-control::-webkit-resizer {
     width: 80px;
   }
 
-  /**
-   * PORTFOLIO
-   */
+/**PORTFOLIO**/
 
   .article-title {
     padding-bottom: 20px;
@@ -1642,16 +1554,14 @@ textarea.form-control::-webkit-resizer {
     color: var(--orange-yellow-crayola);
   }
 
-  /* portfolio and blog grid */
+/**portfolio and blog grid**/
 
   .project-list,
   .blog-posts-list {
     grid-template-columns: 1fr 1fr;
   }
 
-  /**
-   * CONTACT
-   */
+/**CONTACT**/
 
   .input-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -1663,28 +1573,20 @@ textarea.form-control::-webkit-resizer {
   }
 }
 
-/**
- * responsive larger than 1024px screen
- */
+/**responsive larger than 1024px screen**/
 
 @media (min-width: 1024px) {
-  /**
-   * CUSTOM PROPERTY
-   */
+/**CUSTOM PROPERTY*/
 
   :root {
-    /**
-    * shadow
-    */
+/**shadow**/
 
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
   }
 
-  /**
-   * REUSED STYLE
-   */
+/**REUSED STYLE**/
 
   .sidebar,
   article {
@@ -1692,9 +1594,7 @@ textarea.form-control::-webkit-resizer {
     box-shadow: var(--shadow-5);
   }
 
-  /**
-   * MAIN 
-   */
+/**MAIN**/
 
   main {
     margin-bottom: 60px;
@@ -1706,9 +1606,7 @@ textarea.form-control::-webkit-resizer {
     margin: auto;
   }
 
-  /**
-   * NAVBAR
-   */
+/**NAVBAR**/
 
   .navbar {
     position: absolute;
@@ -1731,54 +1629,44 @@ textarea.form-control::-webkit-resizer {
     font-weight: var(--fw-500);
   }
 
-  /**
-   * ABOUT
-   */
+/**ABOUT**/
 
-  /* service */
+/**service**/
 
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
 
-  /* artikel */
+/**artikel**/
 
   .artikel-item {
     min-width: calc(50% - 15px);
   }
 
-  /* Keterampilan */
+/**Keterampilan**/
 
   .Keterampilan-item {
     min-width: calc(25% - 38px);
   }
 
-  /**
-   * PORTFOLIO
-   */
+/**PORTFOLIO**/
 
   .project-list {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /**
-   * BLOG
-   */
+/**BLOG**/
 
   .blog-banner-box {
     height: 230px;
   }
 }
 
-/**
- * responsive larger than 1250px screen
- */
+/**responsive larger than 1250px screen**/
 
 @media (min-width: 1250px) {
-  /**
-   * RESET
-   */
+/**RESET**/
 
   body::-webkit-scrollbar {
     width: 20px;
@@ -1803,9 +1691,7 @@ textarea.form-control::-webkit-resizer {
     height: 60px;
   }
 
-  /**
-   * REUSED STYLE
-   */
+  /**REUSED STYLE**/
 
   .sidebar,
   article {
@@ -1816,9 +1702,7 @@ textarea.form-control::-webkit-resizer {
     min-height: 100%;
   }
 
-  /**
-   * MAIN
-   */
+/**MAIN**/
 
   main {
     max-width: 1200px;
@@ -1835,9 +1719,7 @@ textarea.form-control::-webkit-resizer {
     margin: 0;
   }
 
-  /**
-   * SIDEBAR
-   */
+/**SIDEBAR**/
 
   .sidebar {
     position: sticky;
@@ -1899,9 +1781,7 @@ textarea.form-control::-webkit-resizer {
     justify-content: center;
   }
 
-  /**
-	 * RESUME
-	 */
+/**RESUME**/
 
   .timeline-text {
     max-width: 700px;

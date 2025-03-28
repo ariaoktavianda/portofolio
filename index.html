@@ -6,33 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Card Portfolio</title>
 
-    <!--
-    - favicon
-  -->
-    <link rel="shortcut icon" href="./assets/images/mountain.png" type="image/x-icon" />
+   <!--favicon-->
+    <link rel="shortcut icon" href="./assets/images/aria.png" type="image/x-icon" />
 
-    <!--
-    - custom css link
-  -->
+    <!--css-->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
-    - google font link
-  -->
+    <!--font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
   </head>
 
   <body>
-    <!--
-    - #MAIN
-  -->
+   <!--main-->
 
     <main>
-      <!--
-      - #SIDEBAR
-    -->
+      <!--sidebar-->
 
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
@@ -124,14 +114,11 @@
         </div>
       </aside>
 
-      <!--
-      - #main-content
-    -->
+<!--maincontent-->
 
       <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
+
+<!--navbar-->
 
         <nav class="navbar">
           <ul class="navbar-list">
@@ -153,9 +140,7 @@
           </ul>
         </nav>
 
-        <!--
-        - #ABOUT
-      -->
+<!--about-->
 
         <article class="about active" data-page="about">
           <header>
@@ -169,10 +154,7 @@
               Tidak hanya di dunia call center, saya juga dapat mendesign web dengan pemahaman pemahaman yang kuat, responsive dan stabil. Terbiasa melatih logika dalam pengerjaan web, dan juga dapat membuat program MVC(model, view dan controller) dengan menggunakan laravel atau codeigniter dan RESTful API.
             </p>
           </section>
-
-          <!--
-          - service
-        -->
+<!--service-->
 
           <section class="service">
             <h3 class="h3 service-title">What i'm doing</h3>
@@ -233,9 +215,7 @@
             </ul>
           </section>
 
-          <!--
-          - artikel
-        -->
+<!--artikel-->
 
           <section class="Profesi">
             <h3 class="h3 artikel-title">Artikel</h3>
@@ -325,9 +305,7 @@
             </ul>
           </section>
 
-          <!--
-          - artikel modal
-        -->
+<!--modal artikel-->
 
           <div class="modal-container" data-modal-container>
             <div class="overlay" data-overlay></div>
@@ -363,9 +341,7 @@
             </section>
           </div>
 
-          <!--
-          - Keterampilan
-        -->
+<!--keterampilan bahasa-->
 
           <section class="Keterampilan">
             <h3 class="h3 Keterampilan-title">Keterampilan</h3>
@@ -428,9 +404,7 @@
           </section>
         </article>
 
-        <!--
-        - #RESUME
-      -->
+<!--resume-->
 
         <article class="resume" data-page="resume">
           <header>
@@ -574,9 +548,7 @@
           </section>
         </article>
 
-        <!--
-        - #Project
-      -->
+<!--project-->>
 
         <article class="project" data-page="project">
           <header>
@@ -782,13 +754,27 @@
                   <p class="project-category">Animation</p>
                 </a>
               </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="https://ariaoktavianda.github.io/mymusic">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/noposter.jpg" alt="mymusic" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Mymusic</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
             </ul>
           </section>
         </article>
 
-        <!--
-        - #CONTACT
-      -->
+<!--contact-->
 
       <article class="contact" data-page="contact">
         <header>
@@ -830,18 +816,14 @@
         </article>
     </main>
 
-    <!--
-    - custom js link
-  -->
+<!--custom js link-->
     <script src="./assets/js/script.js"></script>
 
-    <!--
-    - ionicon link
-  -->
+<!--ionicon link-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
 
-    <!---contact-->
+<!---contact-->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzuTMslcfyh8DjJbkm8wqqXBvp-HLfWrEWjfwt7H8FnYRSiWujdTVpGn7XM8sQSou48oQ/exec'
       const form = document.forms['portofolio']
