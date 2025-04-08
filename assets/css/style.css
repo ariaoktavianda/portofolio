@@ -1164,13 +1164,13 @@ textarea.form-control::-webkit-resizer {
 /**responsive larger than 450px screen**/
 
 @media (min-width: 450px) {
-/**keterampilan**/
+  /**keterampilan**/
 
   .Keterampilan-item {
     min-width: calc(33.33% - 10px);
   }
 
-/**portofolio, blog**/
+  /**portofolio, blog**/
 
   .project-img,
   .blog-banner-box {
@@ -1181,10 +1181,10 @@ textarea.form-control::-webkit-resizer {
 /**responsive larger than 580px screen**/
 
 @media (min-width: 580px) {
-/**custome property**/
+  /**custome property**/
 
   :root {
-/**typography**/
+    /**typography**/
 
     --fs-1: 32px;
     --fs-2: 24px;
@@ -1221,14 +1221,14 @@ textarea.form-control::-webkit-resizer {
     font-size: 18px;
   }
 
-/**main**/
+  /**main**/
 
   main {
     margin-top: 60px;
     margin-bottom: 100px;
   }
 
-/**sidebar**/
+  /**sidebar**/
 
   .sidebar {
     max-height: 180px;
@@ -1249,6 +1249,7 @@ textarea.form-control::-webkit-resizer {
 
   .avatar-box img {
     width: 120px;
+    border-radius: 20px;
   }
 
   .info-content .name {
@@ -1287,7 +1288,7 @@ textarea.form-control::-webkit-resizer {
     width: calc(100% - 64px);
   }
 
-/**navbar**/
+  /**navbar**/
 
   .navbar {
     border-radius: 20px 20px 0 0;
@@ -1301,7 +1302,7 @@ textarea.form-control::-webkit-resizer {
     --fs-8: 14px;
   }
 
-/**about**/
+  /**about**/
 
   .about .article-title {
     margin-bottom: 20px;
@@ -1311,7 +1312,7 @@ textarea.form-control::-webkit-resizer {
     margin-bottom: 40px;
   }
 
-/**service**/
+  /**service**/
 
   .service-item {
     display: flex;
@@ -1330,7 +1331,7 @@ textarea.form-control::-webkit-resizer {
     text-align: left;
   }
 
-/**artikel**/
+  /**artikel**/
 
   .artikel-title {
     margin-bottom: 25px;
@@ -1367,7 +1368,7 @@ textarea.form-control::-webkit-resizer {
     -webkit-line-clamp: 2;
   }
 
-/**artikel modal**/
+  /**artikel modal**/
 
   .modal-container {
     padding: 20px;
@@ -1403,7 +1404,7 @@ textarea.form-control::-webkit-resizer {
     width: 35px;
   }
 
-/**Keterampilan**/
+  /**Keterampilan**/
 
   .Keterampilan-list {
     gap: 50px;
@@ -1416,7 +1417,7 @@ textarea.form-control::-webkit-resizer {
     min-width: calc(33.33% - 35px);
   }
 
-/**resume**/
+  /**resume**/
 
   .timeline-list {
     margin-left: 65px;
@@ -1436,7 +1437,7 @@ textarea.form-control::-webkit-resizer {
     margin-bottom: 25px;
   }
 
-/**portofolio dan blog**/
+  /**portofolio dan blog**/
 
   .project-img,
   .blog-banner-box {
@@ -1451,7 +1452,7 @@ textarea.form-control::-webkit-resizer {
     padding: 25px;
   }
 
-/**contact**/
+  /**contact**/
 
   .mapbox {
     height: 380px;
@@ -1484,7 +1485,7 @@ textarea.form-control::-webkit-resizer {
 /**responsive larger than 768px screen**/
 
 @media (min-width: 768px) {
-/**REUSED STYLE**/
+  /**REUSED STYLE**/
 
   .sidebar,
   article {
@@ -1495,22 +1496,22 @@ textarea.form-control::-webkit-resizer {
     width: 100px;
   }
 
-/**SIDEBAR**/
+  /**SIDEBAR**/
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
 
-/**NAVBAR**/
+  /**NAVBAR**/
 
   .navbar-link {
     --fs-8: 15px;
   }
 
-/**ABOUT**/
+  /**ABOUT**/
 
-/**artikel modal**/
+  /**artikel modal**/
 
   .artikel-modal {
     gap: 35px;
@@ -1521,7 +1522,7 @@ textarea.form-control::-webkit-resizer {
     width: 80px;
   }
 
-/**PORTFOLIO**/
+  /**PORTFOLIO**/
 
   .article-title {
     padding-bottom: 20px;
@@ -1554,14 +1555,14 @@ textarea.form-control::-webkit-resizer {
     color: var(--orange-yellow-crayola);
   }
 
-/**portfolio and blog grid**/
+  /**portfolio and blog grid**/
 
   .project-list,
   .blog-posts-list {
     grid-template-columns: 1fr 1fr;
   }
 
-/**CONTACT**/
+  /**CONTACT**/
 
   .input-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -1576,17 +1577,17 @@ textarea.form-control::-webkit-resizer {
 /**responsive larger than 1024px screen**/
 
 @media (min-width: 1024px) {
-/**CUSTOM PROPERTY*/
+  /**CUSTOM PROPERTY*/
 
   :root {
-/**shadow**/
+    /**shadow**/
 
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
   }
 
-/**REUSED STYLE**/
+  /**REUSED STYLE**/
 
   .sidebar,
   article {
@@ -1594,7 +1595,7 @@ textarea.form-control::-webkit-resizer {
     box-shadow: var(--shadow-5);
   }
 
-/**MAIN**/
+  /**MAIN**/
 
   main {
     margin-bottom: 60px;
@@ -1606,7 +1607,7 @@ textarea.form-control::-webkit-resizer {
     margin: auto;
   }
 
-/**NAVBAR**/
+  /**NAVBAR**/
 
   .navbar {
     position: absolute;
@@ -1629,34 +1630,34 @@ textarea.form-control::-webkit-resizer {
     font-weight: var(--fw-500);
   }
 
-/**ABOUT**/
+  /**ABOUT**/
 
-/**service**/
+  /**service**/
 
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
 
-/**artikel**/
+  /**artikel**/
 
   .artikel-item {
     min-width: calc(50% - 15px);
   }
 
-/**Keterampilan**/
+  /**Keterampilan**/
 
   .Keterampilan-item {
     min-width: calc(25% - 38px);
   }
 
-/**PORTFOLIO**/
+  /**PORTFOLIO**/
 
   .project-list {
     grid-template-columns: repeat(3, 1fr);
   }
 
-/**BLOG**/
+  /**BLOG**/
 
   .blog-banner-box {
     height: 230px;
@@ -1666,7 +1667,7 @@ textarea.form-control::-webkit-resizer {
 /**responsive larger than 1250px screen**/
 
 @media (min-width: 1250px) {
-/**RESET**/
+  /**RESET**/
 
   body::-webkit-scrollbar {
     width: 20px;
@@ -1702,7 +1703,7 @@ textarea.form-control::-webkit-resizer {
     min-height: 100%;
   }
 
-/**MAIN**/
+  /**MAIN**/
 
   main {
     max-width: 1200px;
@@ -1719,7 +1720,7 @@ textarea.form-control::-webkit-resizer {
     margin: 0;
   }
 
-/**SIDEBAR**/
+  /**SIDEBAR**/
 
   .sidebar {
     position: sticky;
@@ -1781,7 +1782,7 @@ textarea.form-control::-webkit-resizer {
     justify-content: center;
   }
 
-/**RESUME**/
+  /**RESUME**/
 
   .timeline-text {
     max-width: 700px;
